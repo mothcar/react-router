@@ -1,11 +1,16 @@
 // import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <button>click</button>
+      <div>Home</div>
+      <button>
+      <Link to="/about" replace> About</Link>
+      </button>
+      
     </>
   )
 }
